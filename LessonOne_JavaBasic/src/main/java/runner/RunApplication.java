@@ -1,7 +1,10 @@
 package runner;
 
+import utils.Utils;
+
 public class RunApplication {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Utils utils = new Utils();
+        utils.getStringArray();
     }
 }
